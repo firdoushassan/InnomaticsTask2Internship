@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Company Directory Portal</h1>
+    </header>
+
+
+    <section id="registration-form">
+        <h2>Employee Registration Form</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option value="HR">HR</option>
+                <option value="IT">IT</option>
+                <option value="Marketing">Finance</option>
+            </select>
+
+            <label for="employee-id">Employee ID:</label>
+            <input type="number" id="employee-id" name="employee-id" required>
+
+            <label for="profile-pic">Profile Picture URL:</label>
+            <input type="url" id="profile-pic" name="profile-pic" required>
+
+            <button type="submit">Register Employee</button>
+        </form>
+    </section>
+
+
+    <section id="employee-list">
+        <h2>Employee List</h2>
+        <ol>
+            <li><a href="#employee-details">Firdous Hassan - firdous.hassan03@gmail.com</a></li>
+            <li><a href="#employee-details">John Doe - john.doe@example.com</a></li>
+            <li><a href="#employee-details">Jane Smith - jane.smith@example.com</a></li>
+        </ol>
+    </section>
+
+
+    <section id="employee-details">
+        <h2>Employee Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr></tr>
+                    <td>Firdous Hassan</td>
+                    <td>48769</td>
+                    <td>Finance</td>
+                    <td><img src="./Firdous' profile.png" alt="Firdous' profile"></td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>12345</td>
+                    <td>HR</td>
+                    <td><img src="https://via.placeholder.com/50" alt="John's profile"></td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>67890</td>
+                    <td>IT</td>
+                    <td><img src="https://via.placeholder.com/50" alt="Jane's profile"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <section id="map">
+        <h2>Our Location</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d367.26607652443727!2d78.38971596211196!3d17.498030204824097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e1!3m2!1sen!2sin!4v1727238708760!5m2!1sen!2sin"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+</body>
+</html>
