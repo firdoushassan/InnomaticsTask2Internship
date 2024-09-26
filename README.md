@@ -1,4 +1,4 @@
-# Company Directory Portal
+# Company Directory Portal (Internship Project)
 
 This project(TASK 2) was completed as part of my internship with **Innomatics Research Labs**. 
 The task was to build a fully responsive **Company Directory Portal** using only HTML and CSS. 
